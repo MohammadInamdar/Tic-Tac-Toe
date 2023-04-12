@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+      flex: 1;
+      justify-content:center;
+      align-items: center;
+
+    }
+    td {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 30px;
+      font-weight: bold;
+      border: 1px solid black;
+    }
+    .winner {
+      background-color: green;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+    <p><span>Player1 is show : X</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Player2 is show : 0</span></p>
+  <table>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <div id="status"></div>
+  <script src="tictactoe.js"></script>
+</body>
+</html>
